@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom"
 import './nav.css'
-import pageIcon from './pulic/IMG_1718.PNG';
+import pageIcon from './public/IMG_1718.PNG';
 
 const Navbar = () => {
     return (
