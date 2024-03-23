@@ -1,6 +1,6 @@
 import React from 'react';
 import './hero.css';
-import mainHeroImage from './public/IMG_1717.PNG';
+import mainHeroImage from '/public/IMG_1717.png';
 
 const name = "Dylan Gunda";
 

@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import "./skill-slider.css";
-import HTML from "./public/html5-6646.svg";
-import CSS from "./public/css-3.svg";
-import javascript from "./public/javascript-3.png";
-import react from "./public/react-2.svg";
-import bootstrap from "./public/bootstrap-4.svg";
-import figma from "./public//figma-1.svg";
+import HTML from "/public/html5-6646.svg";
+import CSS from "/public/1200px-CSS.3.png";
+import javascript from "/public/javascript-3.png";
+import react from "/public/React-icon.svg.png";
+import bootstrap from "/public/Bootstrap_logo.png";
+import figma from "/public//Figma-1-logo.png";
 
 const SkillSlider = () => {
     useEffect(() => {
