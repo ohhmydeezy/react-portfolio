@@ -3,7 +3,7 @@ import ContactHero from "../../contact-hero/Contact-hero";
 import ContactForm from "../../form/contact-form.jsx";
 import '../../form/contact-form.css';
 
-import logo from '../../../assets/images/IMG_1718.PNG';
+import logo from './src/assets/images/IMG_1718.PNG';
 
 function Contact() {
     return (
