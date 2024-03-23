@@ -25,7 +25,7 @@ const SkillSlider = () => {
                 <img src={CSS} alt="CSS3"  />
                 <img src={javascript} alt="JavaScript" />
                 <img src={react} alt="React" />
-                <img src={react} alt="Bootstrap" />
+                <img src={bootstrap} alt="Bootstrap" />
                 <img src={figma} alt="figma" />
             </div>
         </div>
