@@ -1,12 +1,13 @@
 import React from 'react';
 import './contact-hero.css';
+import heroImage from '../../assets/images/IMG_1746.PNG';
 
 const ContactHero = () => {
     return (
         <div className="container">
             <div className="hero">
                 <div className="hero-image">
-                    <img src="/src/assets/images/IMG_1746.PNG" alt="contact hero image" />
+                    <img src={heroImage} alt="contact hero image" />
                 </div>
                 <div className="hero-content">
                     <h1>Get In Touch</h1>
