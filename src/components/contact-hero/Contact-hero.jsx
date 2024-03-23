@@ -1,6 +1,6 @@
 import React from 'react';
 import './contact-hero.css';
-import heroImage from '/public/IMG_1746.png';
+import heroImage from '/public/waving.png';
 
 const ContactHero = () => {
     return (
