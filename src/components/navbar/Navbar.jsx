@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom"
 import './nav.css'
+import pageIcon from '../../assets/images/IMG_1718.PNG';
 
 const Navbar = () => {
     return (
@@ -10,7 +11,7 @@ const Navbar = () => {
                     <div className="container-fluid d-flex justify-content-between align-items-center">
                         <Link
                                     to="/"
-                                    className={window.location.pathname === "/Home" ? "nav-link active" : "nav-link"}><img src="/src/assets/images/IMG_1718.PNG" alt="Logo" className="d-inline-block align-text-top"></img> </Link>
+                                    className={window.location.pathname === "/Home" ? "nav-link active" : "nav-link"}><img src={pageIcon} alt="Logo" className="d-inline-block align-text-top"></img> </Link>
                         <ul className="nav">
                             <li className="nav-item">
                                 <Link

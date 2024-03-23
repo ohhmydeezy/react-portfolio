@@ -3,6 +3,8 @@ import ContactHero from "../../contact-hero/Contact-hero";
 import ContactForm from "../../form/contact-form.jsx";
 import '../../form/contact-form.css';
 
+import logo from '../../../assets/images/IMG_1718.PNG';
+
 function Contact() {
     return (
         <>
@@ -17,7 +19,7 @@ function Contact() {
                 </div>
             </div>
                 <div className="timestamp">
-                    <img src="/src/assets/images/IMG_1718.PNG" alt="Logo" className="d-inline-block align-text-top" />
+                    <img src={logo} alt="Logo" className="d-inline-block align-text-top" />
                     <p>Now</p>
                 </div>
             <ContactForm />

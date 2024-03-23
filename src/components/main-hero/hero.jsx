@@ -1,5 +1,6 @@
 import React from 'react';
 import './hero.css';
+import mainHeroImage from '../../assets/images/IMG_1717.PNG';
 
 const name = "Dylan Gunda";
 
@@ -8,7 +9,7 @@ const Hero = () => {
         <div className="container">
             <div className="hero">
                 <div className="hero-image">
-                    <img src="/src/assets/images/IMG_1717.PNG" alt="waving hero image" />
+                    <img src={mainHeroImage} alt="waving hero image" />
                 </div>
                 <div className="hero-content">
                     <h1>Hi, I'm <span className="text-primary">{name}</span></h1>

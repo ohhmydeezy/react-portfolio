@@ -3,6 +3,9 @@ import './projects.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons'
+import comingsoon1 from '../../../assets/images/coming soon .webp';
+import comingsoon2 from '../../../assets/images/AI coming soon.png';
+import caution from '../../../assets/images/caution coming soon.png';
 
 const Projects = () => {
     return (
@@ -12,7 +15,7 @@ const Projects = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="card">
-                            <img src="/src/assets/images/coming soon .webp" alt="project 1" />
+                            <img src={comingsoon1} alt="project 1" />
                             <div className="card-body">
                                 <div className="project-links">
                                 <a href="#"><FontAwesomeIcon icon={faGithub}/></a>
@@ -47,7 +50,7 @@ const Projects = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="card">
-                            <img src="/src/assets/images/AI coming soon.png" alt="project 2" />
+                            <img src={comingsoon2} alt="project 2" />
                             <div className="card-body">
                             <div className="project-links">
                                 <a href="#"><FontAwesomeIcon icon={faGithub}/></a>
@@ -77,7 +80,7 @@ const Projects = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="card">
-                            <img src="/src/assets/images/caution coming soon.png" alt="project 3" />
+                            <img src={caution} alt="project 3" />
                             <div className="card-body">
                             <div className="project-links">
                                 <a href="#"><FontAwesomeIcon icon={faGithub}/></a>
