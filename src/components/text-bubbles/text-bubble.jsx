@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleRight } from '@fortawesome/free-solid-svg-icons';
-import logo from './assets/images/IMG_1718.PNG';
+import logo from './pulic/IMG_1718.PNG';
 
 
 import './text-bubble.css';
