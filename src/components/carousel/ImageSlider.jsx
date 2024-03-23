@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import './image-slider.css'
 
-import comingSoon1 from "./pulic/coming soon .webp";
-import comingSoon2 from "./pulic/AI coming soon.png";
-import comingSoon3 from "./pulic/caution coming soon.png";
+import comingSoon1 from "./public/coming soon .webp";
+import comingSoon2 from "./public/AI coming soon.png";
+import comingSoon3 from "./public/caution coming soon.png";
 
 const ImageSlider = () => {
     const [positionIndexes, setPositionIndexes] = useState([0, 1, 2]);

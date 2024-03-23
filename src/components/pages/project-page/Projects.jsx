@@ -3,9 +3,9 @@ import './projects.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons'
-import comingsoon1 from './pulic/coming soon .webp';
-import comingsoon2 from './pulic/AI coming soon.png';
-import caution from './pulic/caution coming soon.png';
+import comingsoon1 from './public/coming soon .webp';
+import comingsoon2 from './public/AI coming soon.png';
+import caution from './public/caution coming soon.png';
 
 const Projects = () => {
     return (
