@@ -3,7 +3,7 @@ import './projects.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons'
-import comingsoon1 from '/public/coming soon .webp';
+import lyricLift from '/public/lyriclift.png';
 import comingsoon2 from '/public/AI coming soon.png';
 import caution from '/public/caution coming soon.png';
 
@@ -15,16 +15,16 @@ const Projects = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="card">
-                            <img src={comingsoon1} alt="project 1" />
+                            <img src={lyricLift} alt="project 1" />
                             <div className="card-body">
                                 <div className="project-links">
-                                <a href="#"><FontAwesomeIcon icon={faGithub}/></a>
-                                <a href="#"><FontAwesomeIcon icon={faLink}/></a>
+                                <a href="https://github.com/HJandu/LyricLift"><FontAwesomeIcon icon={faGithub}/></a>
+                                <a href="https://lyriclift.netlify.app/"><FontAwesomeIcon icon={faLink}/></a>
                                 </div>
-                                <h5>Project 1</h5>
+                                <h5>lyric Lift</h5>
                                 <p>
-                                    [Project Name] is a dynamic web application built using React, the popular JavaScript library for building user interfaces. <br />
-                                    Our mission is to deliver a seamless and interactive experience for our users, whether they're browsing on desktop or mobile devices.
+                                    [Project Name] is a dynamic web application built using React<br />
+                                    Our Mission was to create a platform that allows users to search for song lyrics and transklate them into english.
                                 </p>
                                 <p>
                                     Responsive Design:<br />
@@ -40,10 +40,8 @@ const Projects = () => {
                                     Technologies Used:<br />
                                     React: A JavaScript library for building user interfaces.<br />
                                     React Router: For declarative routing in our single-page application.<br />
-                                    Redux (optional): If needed, Redux provides a predictable state container for managing application state.<br />
-                                    Axios/Fetch: For making asynchronous HTTP requests to our backend services.<br />
-                                    Styled Components/SASS: For styling our components and ensuring a consistent look and feel.<br />
-                                    ESLint/Prettier: To maintain code quality and enforce coding standards.
+                                    Ky/Fetch: For making asynchronous HTTP requests to our backend services.<br />
+                                    Styled Components/Materialize CSS: For styling our components and ensuring a consistent look and feel.<br />
                                 </p>
                             </div>
                         </div>
