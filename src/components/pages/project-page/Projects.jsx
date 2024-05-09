@@ -3,7 +3,7 @@ import './projects.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons'
-import lyricLift from '/public/lyriclift.png';
+import lyricLift from '/public/lyriclift.jpg';
 import comingsoon2 from '/public/AI coming soon.png';
 import caution from '/public/caution coming soon.png';
 
