@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons'
 import lyricLift from '/public/lyriclift.jpg';
-import comingsoon2 from '/public/AI coming soon.png';
+import quiz from '/public/codingquiz.jpg';
 import caution from '/public/caution coming soon.png';
 
 const Projects = () => {
@@ -23,7 +23,7 @@ const Projects = () => {
                                 </div>
                                 <h5>lyric Lift</h5>
                                 <p>
-                                    [Project Name] is a dynamic web application built using React<br />
+                                    LyricLift is a dynamic web application built using React<br />
                                     Our Mission was to create a platform that allows users to search for song lyrics and transklate them into english.
                                 </p>
                                 <p>
@@ -48,30 +48,26 @@ const Projects = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="card">
-                            <img src={comingsoon2} alt="project 2" />
+                            <img src={quiz} alt="project 2" />
                             <div className="card-body">
                             <div className="project-links">
-                                <a href="#"><FontAwesomeIcon icon={faGithub}/></a>
-                                <a href="#"><FontAwesomeIcon icon={faLink}/></a>
+                                <a href="https://github.com/ohhmydeezy/Bootcamp-Quiz"><FontAwesomeIcon icon={faGithub}/></a>
+                                <a href="https://ohhmydeezy.github.io/Bootcamp-Quiz/index.html"><FontAwesomeIcon icon={faLink}/></a>
                                 </div>
-                                <h5>Project 2</h5>
+                                <h5>Coding Quiz</h5>
                                 <p>
-                                    [Project Name] is a modern web application powered by React, designed to revolutionize how users interact with [specific domain or industry].<br />
+                                    The Coding quiz is a modern web application powered by JQuery, designed to test the users knowledge of Basic Coding concepts.<br />
                                     With a sleek and intuitive user interface, we aim to provide a seamless experience for all our users.
                                 </p>
                                 <p>
                                     Key Highlights:<br />
-                                    Real-time Updates: Leveraging React's reactive nature, [Project Name] delivers real-time updates and notifications, ensuring users stay informed and engaged.
-                                    Customizable Themes: Personalize your experience with a range of customizable themes and color schemes, tailored to suit your preferences.
-                                    Interactive Charts and Graphs: Dive deep into data with our interactive charts and graphs, powered by React libraries such as Chart.js or D3.js.
-                                    Advanced Form Handling: From simple contact forms to complex multi-step wizards, [Project Name] makes form handling a breeze with React's controlled components and form validation libraries.
-
+                                    Real-time Updates: Leveraging Jquey's DOM manipulation capabilities, we created a quiz which stores the users score and displays it in real-time.<br />
+                                    Dynamic Content: With JQuery's AJAX capabilities, we fetch and display questions from an seperate file, ensuring that our quiz is always up-to-date and relevant.<br />
                                 </p>
                                 <p>
                                     Technologies Utilized:<br />
-                                    React Hooks: Harness the power of React's Hooks API for stateful logic and side effects, enabling cleaner and more concise code.
-                                    Context API: Manage global state and share data between components seamlessly with React's Context API, eliminating the need for prop drilling.
-                                    React Testing Library/Jest: Ensure the reliability of your codebase with comprehensive unit and integration tests, utilizing React Testing Library in tandem with Jest.
+                                    JQuery: A fast, small, and feature-rich JavaScript library for simplifying HTML document traversal and manipulation, event handling, and animation.<br />
+                                    HTML & CSS: For structuring and styling our web application, ensuring a clean and intuitive user experience.<br />
                                 </p>
                             </div>
                         </div>
