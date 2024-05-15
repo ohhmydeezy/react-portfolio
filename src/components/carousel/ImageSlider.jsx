@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import './image-slider.css'
 
-import comingSoon1 from "/public/coming soon .webp";
-import comingSoon2 from "/public/AI coming soon.png";
-import comingSoon3 from "/public/caution coming soon.png";
+import lyricLift from "/public/lyriclift.jpg";
+import quiz from "/public/codingquiz.jpg";
+import password from "/public/password.jpg";
 
 const ImageSlider = () => {
     const [positionIndexes, setPositionIndexes] = useState([0, 1, 2]);
@@ -15,7 +15,7 @@ const ImageSlider = () => {
         );
     };
 
-    const images = [comingSoon1, comingSoon2, comingSoon3];
+    const images = [lyricLift, quiz, password];
 
     const positions = ["left", "center", "right"];
 
