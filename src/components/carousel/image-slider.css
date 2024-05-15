@@ -11,6 +11,7 @@
     width: 40%;
     position: absolute;
     border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
     /* Corrected */
 }
 

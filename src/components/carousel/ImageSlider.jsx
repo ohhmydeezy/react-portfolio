@@ -42,12 +42,15 @@ const ImageSlider = () => {
                             animate={positions[positionIndexes[index]]}
                             variants={imageVariants}
                             transition={{ duration: 0.5 }}
-                            style={{width: '90%', position: 'absolute', borderRadius: '20px'}}
+                            style={{ width: '90%', position: 'absolute', borderRadius: '20px' }}
                         />
                     ))}
                 </div>
-                <button className="slider-button" onClick={handleNext}>Next</button>
+                <a href="/project-page" className="project-button">
+                    Find out more
+                </a>
             </div>
+            <button className="slider-button" onClick={handleNext}>Next</button>
         </div>
     );
 }
