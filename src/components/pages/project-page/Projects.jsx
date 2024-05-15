@@ -5,7 +5,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons'
 import lyricLift from '/public/lyriclift.jpg';
 import quiz from '/public/codingquiz.jpg';
-import caution from '/public/caution coming soon.png';
+import password from '/public/password.jpg';
 
 const Projects = () => {
     return (
@@ -74,32 +74,24 @@ const Projects = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="card">
-                            <img src={caution} alt="project 3" />
+                            <img src={password} alt="project 3" />
                             <div className="card-body">
                             <div className="project-links">
-                                <a href="#"><FontAwesomeIcon icon={faGithub}/></a>
-                                <a href="#"><FontAwesomeIcon icon={faLink}/></a>
+                                <a href="https://github.com/ohhmydeezy/password-generator"><FontAwesomeIcon icon={faGithub}/></a>
+                                <a href="https://ohhmydeezy.github.io/password-generator/"><FontAwesomeIcon icon={faLink}/></a>
                                 </div>
                                 <h5>Project 3</h5>
                                 <p>
-                                    Welcome to [Project Name], your ultimate destination for building powerful web applications with React. <br />
-                                    Designed with developers in mind, our platform empowers you to create stunning user interfaces with ease.
+                                    The Random Password Generator, is a simple yet effective application built using Javascript <br />
+                                    Desinged with the end user in mind, the application is intuitive and easy to use.
                                 </p>
                                 <p>
                                     What Sets Us Apart:<br />
-                                    Developer-Friendly APIs: With a clean and intuitive API design, [Project Name] simplifies complex tasks and reduces boilerplate code, enabling you to focus on what matters most—building great applications.
-                                    Performance Optimization: Achieve blazing-fast performance with [Project Name]'s built-in optimizations, including code splitting, lazy loading, and memoization techniques.
-                                    State-of-the-Art Tooling: From webpack to Babel, [Project Name] leverages the latest tools and technologies to streamline your development workflow, ensuring maximum productivity and efficiency.
-                                    Accessibility: We believe in making the web accessible to all. With [Project Name], we strive to meet WCAG standards and ensure that our applications are usable by everyone, regardless of their abilities.
+                                    Creating a random password generator with vanilla JavaScript is both straightforward and highly useful for enhancing security.
+                                    The generator uses an intuitive and clean code design, making it easy to integrate into any project.
+                                    By leveraging built-in functions and optimizing performance with efficient algorithms, this generator ensures that you can create strong, unpredictable passwords without significant overhead.
+                                    The generator is designed to be accessible and user-friendly, ensuring that users of all skill levels can easily generate secure passwords for their applications. With this tool, you can focus on building robust and secure web applications without worrying about password security.
                                 </p>
-                                <p>
-                                    Built with Cutting-Edge Technologies:<br />
-                                    React Concurrent Mode: Embrace the future of React with Concurrent Mode, enabling smoother user experiences and better resource utilization.
-                                    GraphQL/Apollo Client: Seamlessly fetch and manage data with GraphQL and Apollo Client, simplifying data fetching and state management in your applications.
-                                    Next.js (optional): For server-side rendering and hybrid applications, [Project Name] integrates seamlessly with Next.js, offering unparalleled performance and SEO benefits.
-                                </p>
-
-
                             </div>
                         </div>
                     </div>
