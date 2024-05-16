@@ -34,7 +34,7 @@ const ImageSlider = () => {
                 <div className="slider">
                     {images.map((image, index) => (
                         <motion.img
-                            key={index}
+                            key={index} 
                             src={image}
                             alt={`Image ${index + 1}`}
                             className="slider-image rounded-[12px]"
@@ -42,15 +42,12 @@ const ImageSlider = () => {
                             animate={positions[positionIndexes[index]]}
                             variants={imageVariants}
                             transition={{ duration: 0.5 }}
-                            style={{ width: '90%', position: 'absolute', borderRadius: '20px' }}
+                            style={{width: '90%', position: 'absolute', borderRadius: '20px'}}
                         />
                     ))}
                 </div>
-                <a href="/project-page" className="project-button">
-                    Find out more
-                </a>
+                <button className="slider-button" onClick={handleNext}>Next</button>
             </div>
-            <button className="slider-button" onClick={handleNext}>Next</button>
         </div>
     );
 }
