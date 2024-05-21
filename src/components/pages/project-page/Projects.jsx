@@ -1,10 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLink } from '@fortawesome/free-solid-svg-icons';
-import lyricLift from './path-to-lyricLift-image';
-import quiz from './path-to-quiz-image';
-import password from './path-to-password-image';
-import './YourStyles.css'; // Ensure this CSS file includes the necessary styles
+import lyricLift from '/public/lyriclift.jpg';
+import quiz from '/public/codingquiz.jpg';
+import password from '/public/password.jpg';
+import './Projects.css';
 
 const Projects = () => {
     return (
