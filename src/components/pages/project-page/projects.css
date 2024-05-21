@@ -1,49 +1,69 @@
-/* Default styles */
+/* YourStyles.css */
+
 .project-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    margin-top: 150px;
-    margin-bottom: 100px;
+    align-items: center;
+    margin: 20px;
 }
 
-.project-container h1 {
-    margin-bottom: 50px;
+h1 {
+    margin-bottom: 20px;
+}
+
+.flex-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
 }
 
 .card img {
     width: 100%;
-    height: 100%;
-    border-radius: 20px;
+    height: auto;
 }
 
-/* Media queries for responsiveness */
-@media screen and (max-width: 768px) {
-    .project-container {
-        margin-top: 100px;
-        margin-bottom: 50px;
-    }
-
-    .project-container h1 {
-        margin-bottom: 30px;
-        font-size: 1.5rem; /
-    }
-
-    .card img {
-        border-radius: 10px;
-    }
-
-    .slider-container {
-    display: flex;
-    justify-content: center;
-    height: 30vh !important;
-    max-width: 100%;
-    margin: 0 auto;
-    position: relative;
-    }
-
+.card-body {
+    padding: 20px;
 }
+
+.project-links a {
+    margin: 0 10px;
+    color: #000;
+}
+
+.project-links a:hover {
+    color: #007BFF;
+}
+
+h5 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+strong {
+    font-weight: bold;
+}
+
 
 .project-links {
     display: flex;
