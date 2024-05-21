@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
+import './projects.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLink } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLink } from '@fortawesome/free-solid-svg-icons'
 import lyricLift from '/public/lyriclift.jpg';
 import quiz from '/public/codingquiz.jpg';
 import password from '/public/password.jpg';
-import './projects.css';
 
 const Projects = () => {
     return (
