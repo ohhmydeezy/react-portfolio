@@ -4,7 +4,7 @@ import { faGithub, faLink } from '@fortawesome/free-solid-svg-icons';
 import lyricLift from '/public/lyriclift.jpg';
 import quiz from '/public/codingquiz.jpg';
 import password from '/public/password.jpg';
-import './Projects.css';
+import './projects.css';
 
 const Projects = () => {
     return (
